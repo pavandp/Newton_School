@@ -1,0 +1,25 @@
+.Outer-square {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.Inner-squares {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+
+}
+
+.Inner-circles {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    border-radius: 50%;
+}
